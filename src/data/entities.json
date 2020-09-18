@@ -1,0 +1,85 @@
+{
+    "response": [
+      {
+        "type": "flat",
+        "id": 1,
+        "liked": false,
+        "attributes": {
+          "title": "3-х комнатная на Минской",
+          "rooms": 3,
+          "address": {
+            "city": "Tyumen",
+            "street": "Минская",
+            "house": "3a",
+            "room": "123"
+          },
+          "area": 134,
+          "unit": "квм",
+          "photo": "https://kvsspb.ru/upload/img/s_otdelkoy/janino/8.jpg"
+        },
+        "relationships": {
+          "type": "agent",
+          "id": 2,
+          "attributes": {
+            "first_name": "Василий",
+            "last_name": "Дроздов",
+            "middle_name": "Михайлович"
+          }
+        }
+      },
+      {
+        "type": "flat",
+        "id": 2,
+        "liked": false,
+        "attributes": {
+          "title": "1 комнатная на Бараба...",
+          "rooms": 2,
+          "address": {
+            "city": "Tyumen",
+            "street": "Барабинская",
+            "house": "12",
+            "room": "45"
+          },
+          "area": 34,
+          "unit": "квм",
+          "photo": "https://img-cdn.tinkoffjournal.ru/main___kvartira_vashi_prava.5oxpmdxtk8fa.jpg"
+        },
+        "relationships": {
+          "type": "agent",
+          "id": 10,
+          "attributes": {
+            "first_name": "Михаил",
+            "last_name": "Иванов",
+            "middle_name": "Демидович"
+          }
+        }
+      },
+      {
+        "type": "flat",
+        "id": 3,
+        "liked": false,
+        "attributes": {
+          "title": "Квартира Ленина",
+          "rooms": 4,
+          "address": {
+            "city": "Tyumen",
+            "street": "Ленина",
+            "house": "134",
+            "room": "24"
+          },
+          "area": 134,
+          "unit": "квм",
+          "photo": "https://s00.yaplakal.com/pics/pics_original/6/7/4/8380476.jpg"
+        },
+        "relationships": {
+          "type": "agent",
+          "id": 44,
+          "attributes": {
+            "first_name": "Степан",
+            "last_name": "Карачаев",
+            "middle_name": "Иванович"
+          }
+        }
+      }
+    ]
+  }
