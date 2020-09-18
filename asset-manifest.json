@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/creative-test-job/static/css/main.40943da8.chunk.css",
+    "main.js": "/creative-test-job/static/js/main.2ed33f33.chunk.js",
+    "main.js.map": "/creative-test-job/static/js/main.2ed33f33.chunk.js.map",
+    "runtime-main.js": "/creative-test-job/static/js/runtime-main.ac9f548d.js",
+    "runtime-main.js.map": "/creative-test-job/static/js/runtime-main.ac9f548d.js.map",
+    "static/css/2.ec3825ee.chunk.css": "/creative-test-job/static/css/2.ec3825ee.chunk.css",
+    "static/js/2.258c138a.chunk.js": "/creative-test-job/static/js/2.258c138a.chunk.js",
+    "static/js/2.258c138a.chunk.js.map": "/creative-test-job/static/js/2.258c138a.chunk.js.map",
+    "index.html": "/creative-test-job/index.html",
+    "precache-manifest.e263d938cd50c3e4a484c3fa3f4e293d.js": "/creative-test-job/precache-manifest.e263d938cd50c3e4a484c3fa3f4e293d.js",
+    "service-worker.js": "/creative-test-job/service-worker.js",
+    "static/css/2.ec3825ee.chunk.css.map": "/creative-test-job/static/css/2.ec3825ee.chunk.css.map",
+    "static/css/main.40943da8.chunk.css.map": "/creative-test-job/static/css/main.40943da8.chunk.css.map",
+    "static/js/2.258c138a.chunk.js.LICENSE.txt": "/creative-test-job/static/js/2.258c138a.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/creative-test-job/static/media/roboto-vietnamese-400-normal.a8be5b46.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac9f548d.js",
+    "static/css/2.ec3825ee.chunk.css",
+    "static/js/2.258c138a.chunk.js",
+    "static/css/main.40943da8.chunk.css",
+    "static/js/main.2ed33f33.chunk.js"
+  ]
+}
