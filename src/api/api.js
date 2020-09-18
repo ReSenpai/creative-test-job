@@ -3,7 +3,7 @@ import * as data from '../data/entities.json';
 const simulatedServerResponse = new Promise((resolve) => {
     setTimeout(() => {
         resolve(data.response);
-    }, 1000);
+    }, 200);
 })
 
 export const apartamentsAPI = {
