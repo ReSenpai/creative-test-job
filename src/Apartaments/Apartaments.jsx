@@ -9,7 +9,7 @@ const Apartaments = ({apartaments, addLike, removeLike, likes}) => {
 
     return (
         <Grid container spacing={2} justify='center' alignItems='center' direction='column'
-            style={{ height: '100vh', width: '100%' }} >
+            style={{ minHeight: '100vh', width: '100%' }} >
             <Badge badgeContent={ likes } color="error" 
                 style={{ position: 'fixed', top: '6%', right: '6%', zIndex: '1' }}>
                 { likes
