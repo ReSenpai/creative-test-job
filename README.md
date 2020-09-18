@@ -6,4 +6,4 @@
 npm i
 ```
 
-### Github pages - here
+### Github pages - [here](https://resenpai.github.io/creative-test-job/)
