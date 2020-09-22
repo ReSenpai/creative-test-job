@@ -7,6 +7,8 @@ const rootReducer = combineReducers({
    apartamentsPage: apartamentsReducer
 });
 
+type RootReducerType = typeof rootReducer;
+export type AppStateType = ReturnType<RootReducerType>;
 
 const store = createStore(rootReducer,  applyMiddleware(thunkMiddleware));
 

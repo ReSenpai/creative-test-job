@@ -9,6 +9,8 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { Grid } from '@material-ui/core';
+import { EntitiesType } from '../types/types';
+import { AddLikeAT, RemoveLikeAT } from '../redux/apartaments_reducer';
 
 const useStyles = makeStyles({
   root: {
@@ -24,7 +26,13 @@ const useStyles = makeStyles({
   },
 });
 
-export default function ApartamentCard({apartaments, addLike, removeLike}) {
+type PropsType = {
+  apartaments: Array<EntitiesType>
+  addLike: (cardId: number) => AddLikeAT
+  removeLike: (cardId: number) => RemoveLikeAT
+}
+
+const ApartamentCard: React.FC<PropsType> = ({apartaments, addLike, removeLike}): any => {
   const classes = useStyles();
 
   return apartaments.map(apartament => (
@@ -69,3 +77,5 @@ export default function ApartamentCard({apartaments, addLike, removeLike}) {
     </Grid>
   ))
 }
+
+export default ApartamentCard;
